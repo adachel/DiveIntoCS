@@ -28,7 +28,7 @@
                             Console.WriteLine("Задайте корректный знак: '+', '-', '*' или '/'!");
                             return;
                     }
-                    Console.WriteLine($"Результат etr = {result}");
+                    Console.WriteLine($"Результат = {result}");
                 }
                 else Console.WriteLine("Задайте корректный знак: '+', '-', '*' или '/'!");
             }
