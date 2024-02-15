@@ -26,14 +26,13 @@ public class HomeWork1
                             break;
                         default:
                             Console.WriteLine("Задайте корректный знак: '+', '-', '*' или '/'!");
-                            break;
+                            return;
                     }
+                    Console.WriteLine($"Результат = {result}");
                 }
                 else Console.WriteLine("Задайте корректный знак: '+', '-', '*' или '/'!");
             }
-            else Console.WriteLine("Должны быть численные значения!");
-
-            Console.WriteLine($"Результат = {result}");
+            else Console.WriteLine("Должны быть заданы численные значения!");
         }
         else Console.WriteLine("Нужно два аргумента и знак между ними. Все через пробел!");
     }
