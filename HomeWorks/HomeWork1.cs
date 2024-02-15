@@ -28,7 +28,7 @@ public class HomeWork1
                             Console.WriteLine("Задайте корректный знак: '+', '-', '*' или '/'!");
                             return;
                     }
-                    Console.WriteLine($"Результат = {result}");
+                    Console.WriteLine($"Результат вычисления = {result}");
                 }
                 else Console.WriteLine("Задайте корректный знак: '+', '-', '*' или '/'!");
             }
