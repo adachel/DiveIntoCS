@@ -14,7 +14,7 @@ public class Seminar1
             if (int.TryParse(args[0], out int number1) && int.TryParse(args[1], out int number2))
             {
                 int summma = number1 + number2;
-                Console.WriteLine($"Сумма = {summma}");
+                Console.WriteLine($"Сумма равна = {summma}");
             }
             else
             {
