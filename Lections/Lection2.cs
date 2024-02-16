@@ -2,7 +2,7 @@ using System.Text;
 
 public class Lection2
 {
-    public void ÑreatingOneDimensionalArray(string[] args) // ìàññèâ
+    public void CreatingOneDimensionalArray(string[] args) // ìàññèâ
     {
         if (args.Length == 1)
         {
