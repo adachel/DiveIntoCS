@@ -13,11 +13,11 @@
             /*HomeWork1 work1 = new HomeWork1();
             work1.Calc(args);*/
 
-           /* Lection2 lection2 = new Lection2();
+            Lection2 lection2 = new Lection2();
             lection2.Fibo(args);            // мой фибоначи
             lection2.FiboRecursy(args);     // рекурсивный
             lection2.FiboPrepod(args);      // фибо препода 
-            lection2.FiboDS(args);          // домашнее задание*/
+            lection2.FiboDS(args);          // домашнее задание
 
             // Lection2 changeArrays = new Lection2();
             // changeArrays.СreatingOneDimensionalArray(args);      // одномерный массив

@@ -1,8 +1,8 @@
-using System.Text;
+п»їusing System.Text;
 
 public class Lection2
 {
-    public void CreatingOneDimensionalArray(string[] args) // массив
+    public void CreatingOneDimensionalArray(string[] args) // РјР°СЃСЃРёРІ
     {
         if (args.Length == 1)
         {
@@ -16,12 +16,12 @@ public class Lection2
                 string view = string.Join(" ", arr);
                 Console.WriteLine(view);
             }
-            else Console.WriteLine("Должно быть число");
+            else Console.WriteLine("Р”РѕР»Р¶РЅРѕ Р±С‹С‚СЊ С‡РёСЃР»Рѕ");
         }
-        else Console.WriteLine("Задайте число длины массива");
+        else Console.WriteLine("Р—Р°РґР°Р№С‚Рµ С‡РёСЃР»Рѕ РґР»РёРЅС‹ РјР°СЃСЃРёРІР°");
     }
 
-    public void CreatingMultidimensionalArray(string[] args)  // двумерный массив
+    public void CreatingMultidimensionalArray(string[] args)  // РґРІСѓРјРµСЂРЅС‹Р№ РјР°СЃСЃРёРІ
     {
         if (args.Length == 2)
         {
@@ -37,12 +37,12 @@ public class Lection2
                     Console.WriteLine();
                 }
             }
-            else Console.WriteLine("Должно быть числа");
+            else Console.WriteLine("Р”РѕР»Р¶РЅРѕ Р±С‹С‚СЊ С‡РёСЃР»Р°");
         }
-        else Console.WriteLine("Задайте два числа через пробел");
+        else Console.WriteLine("Р—Р°РґР°Р№С‚Рµ РґРІР° С‡РёСЃР»Р° С‡РµСЂРµР· РїСЂРѕР±РµР»");
     }
 
-    public void CreatingArrayOfArrays(string[] args)  // массив массивов
+    public void CreatingArrayOfArrays(string[] args)  // РјР°СЃСЃРёРІ РјР°СЃСЃРёРІРѕРІ
     {
         if (args.Length == 2)
         {
@@ -62,9 +62,9 @@ public class Lection2
                     Console.WriteLine();
                 }
             }
-            else Console.WriteLine("Должно быть числа");
+            else Console.WriteLine("Р”РѕР»Р¶РЅРѕ Р±С‹С‚СЊ С‡РёСЃР»Р°");
         }
-        else Console.WriteLine("Задайте два числа через пробел");
+        else Console.WriteLine("Р—Р°РґР°Р№С‚Рµ РґРІР° С‡РёСЃР»Р° С‡РµСЂРµР· РїСЂРѕР±РµР»");
 
     }
 
@@ -87,18 +87,18 @@ public class Lection2
                     arr[i] = result;
                 }
                 string str = string.Join(",", arr);
-                Console.WriteLine("Ряд фибоначи: \n" + str);
-                Console.WriteLine("Последнее число: " + arr[^1]);
+                Console.WriteLine("Р СЏРґ С„РёР±РѕРЅР°С‡Рё: \n" + str);
+                Console.WriteLine("РџРѕСЃР»РµРґРЅРµРµ С‡РёСЃР»Рѕ: " + arr[^1]);
             }
-            else Console.WriteLine("Нужно целое положительное число");
+            else Console.WriteLine("РќСѓР¶РЅРѕ С†РµР»РѕРµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ");
         }
-        else Console.WriteLine("Для фибоначи нужно одно число");
+        else Console.WriteLine("Р”Р»СЏ С„РёР±РѕРЅР°С‡Рё РЅСѓР¶РЅРѕ РѕРґРЅРѕ С‡РёСЃР»Рѕ");
     }
 
     public void FiboDS(string[] args) 
     {
-        /*Написать функцию вычисления N-го числа Фибоначчи используя
-        фиксированную длину массива - 2*/
+        /*РќР°РїРёСЃР°С‚СЊ С„СѓРЅРєС†РёСЋ РІС‹С‡РёСЃР»РµРЅРёСЏ N-РіРѕ С‡РёСЃР»Р° Р¤РёР±РѕРЅР°С‡С‡Рё РёСЃРїРѕР»СЊР·СѓСЏ
+        С„РёРєСЃРёСЂРѕРІР°РЅРЅСѓСЋ РґР»РёРЅСѓ РјР°СЃСЃРёРІР° - 2*/
 
         if (args.Length == 1)
         {
@@ -114,11 +114,11 @@ public class Lection2
                     arr[0] = temp;
                 }
                 // Console.WriteLine(string.Join(" ", arr));
-                Console.WriteLine("Последнее число: " + arr[^1]);
+                Console.WriteLine("РџРѕСЃР»РµРґРЅРµРµ С‡РёСЃР»Рѕ: " + arr[^1]);
             }
-            else Console.WriteLine("Нужно целое положительное число");
+            else Console.WriteLine("РќСѓР¶РЅРѕ С†РµР»РѕРµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ");
         }
-        else Console.WriteLine("Для фибоначи нужно одно число");
+        else Console.WriteLine("Р”Р»СЏ С„РёР±РѕРЅР°С‡Рё РЅСѓР¶РЅРѕ РѕРґРЅРѕ С‡РёСЃР»Рѕ");
 
     }
 
@@ -135,11 +135,11 @@ public class Lection2
                 {
                     arr[i] = arr[i - 1] + arr[i - 2];
                 }
-                Console.WriteLine("Последнее число: " + arr[^1]);
+                Console.WriteLine("РџРѕСЃР»РµРґРЅРµРµ С‡РёСЃР»Рѕ: " + arr[^1]);
             }
-            else Console.WriteLine("Нужно целое положительное число");
+            else Console.WriteLine("РќСѓР¶РЅРѕ С†РµР»РѕРµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ");
         }
-        else Console.WriteLine("Для фибоначи нужно одно число");
+        else Console.WriteLine("Р”Р»СЏ С„РёР±РѕРЅР°С‡Рё РЅСѓР¶РЅРѕ РѕРґРЅРѕ С‡РёСЃР»Рѕ");
 
 
     }
@@ -159,14 +159,14 @@ public class Lection2
         {
             if (int.TryParse(args[0], out int number))
             {
-                Console.WriteLine("Последнее число: " + TempFiboRecurcy(number));
+                Console.WriteLine("РџРѕСЃР»РµРґРЅРµРµ С‡РёСЃР»Рѕ: " + TempFiboRecurcy(number));
             }
-            else Console.WriteLine("Нужно целое положительное число");
+            else Console.WriteLine("РќСѓР¶РЅРѕ С†РµР»РѕРµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ");
         }
-        else Console.WriteLine("Для фибоначи нужно одно число");
+        else Console.WriteLine("Р”Р»СЏ С„РёР±РѕРЅР°С‡Рё РЅСѓР¶РЅРѕ РѕРґРЅРѕ С‡РёСЃР»Рѕ");
     }
 
-    public void MultiplicationTable()  // таблица умножения
+    public void MultiplicationTable()  // С‚Р°Р±Р»РёС†Р° СѓРјРЅРѕР¶РµРЅРёСЏ
     {
         for (int i = 1; i < 10; i++)
         {
@@ -180,8 +180,8 @@ public class Lection2
 
     public void CountWords(string[] args) 
     {
-        /* Написать программу подсчитывающую количество слов в заданном
-        предложении(подсчитывая пробелы в строке в цикле)*/
+        /* РќР°РїРёСЃР°С‚СЊ РїСЂРѕРіСЂР°РјРјСѓ РїРѕРґСЃС‡РёС‚С‹РІР°СЋС‰СѓСЋ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃР»РѕРІ РІ Р·Р°РґР°РЅРЅРѕРј
+        РїСЂРµРґР»РѕР¶РµРЅРёРё(РїРѕРґСЃС‡РёС‚С‹РІР°СЏ РїСЂРѕР±РµР»С‹ РІ СЃС‚СЂРѕРєРµ РІ С†РёРєР»Рµ)*/
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < args.Length; i++)
         {
