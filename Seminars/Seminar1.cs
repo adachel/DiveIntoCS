@@ -26,7 +26,7 @@ public class Seminar1
             Console.WriteLine("Должно быть два аргумента");
         }
     }
-    public void TotalAmount(string[] args) // считает сумму всех чисел ewrt
+    public void TotalAmount(string[] args) // считает сумму всех чисел 
     {
         if (args.Length > 0)
         {
