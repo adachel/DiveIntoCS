@@ -13,11 +13,11 @@
             /*HomeWork1 work1 = new HomeWork1();
             work1.Calc(args);*/
 
-            Lection2 lection2 = new Lection2();
+            /*Lection2 lection2 = new Lection2();
             lection2.Fibo(args);            // мой фибоначи
             lection2.FiboRecursy(args);     // рекурсивный
             lection2.FiboPrepod(args);      // фибо препода 
-            lection2.FiboDS(args);          // домашнее задание
+            lection2.FiboDS(args);          // домашнее задание*/
 
             // Lection2 changeArrays = new Lection2();
             // changeArrays.СreatingOneDimensionalArray(args);      // одномерный массив
@@ -29,6 +29,18 @@
 
             /*Lection2 words = new Lection2();
             words.CountWords(args);         // подсчет пробелов в строке*/
+
+            Seminar2 seminar2 = new Seminar2();
+            // seminar2.SearchNumber(args);
+            // seminar2.SummNumberDel(args);
+            // seminar2.CountNumDel(args);
+            // seminar2.CountOne(args);
+            // seminar2.SortArrays(args);
+            // seminar2.SearchNumbersInString();
+            // seminar2.ArrayRotation();
+            seminar2.InStringDelNamber();
+
+
         }
     }
 }
