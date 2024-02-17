@@ -30,7 +30,7 @@
             /*Lection2 words = new Lection2();
             words.CountWords(args);         // подсчет пробелов в строке*/
 
-            Seminar2 seminar2 = new Seminar2();
+            // Seminar2 seminar2 = new Seminar2();
             // seminar2.SearchNumber(args);
             // seminar2.SummNumberDel(args);
             // seminar2.CountNumDel(args);
@@ -38,7 +38,7 @@
             // seminar2.SortArrays(args);
             // seminar2.SearchNumbersInString();
             // seminar2.ArrayRotation();
-            seminar2.InStringDelNamber();
+            // seminar2.InStringDelNamber();
 
 
         }
