@@ -4,13 +4,21 @@
     {
         static void Main(string[] args)
         {
+            int[,] arr = { { 7, 3, 2 }, { 4, 9, 6 }, { 1, 8, 5 } };
+
+            HomeWork2 work2 = new HomeWork2();
+            work2.SortIntArray(arr);
+
+
             /*  Seminar1 seminar1 = new Seminar1();
               seminar1.Average(args);       // среднее арифметическое
               seminar1.Summa(args);         // сумма двух чисел
               seminar1.MinNunber(args);     // мин число
               seminar1.TotalAmount(args);   // сумма всех чисел */
 
-            /*HomeWork1 work1 = new HomeWork1();
+            /*HomeWork1 work1 = new HomeWo
+             * 
+             * rk1();
             work1.Calc(args);*/
 
             /*Lection2 lection2 = new Lection2();
