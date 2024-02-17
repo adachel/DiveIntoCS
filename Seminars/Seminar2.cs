@@ -1,10 +1,10 @@
-using System.Text;
+п»їusing System.Text;
 
 public class Seminar2
 {
     public void SearchNumber(string[] args) 
     {
-        /*Найти числа в диапазоне от 0 до 1000, деляшиеся на 3 без остатка.*/
+        /*РќР°Р№С‚Рё С‡РёСЃР»Р° РІ РґРёР°РїР°Р·РѕРЅРµ РѕС‚ 0 РґРѕ 1000, РґРµР»СЏС€РёРµСЃСЏ РЅР° 3 Р±РµР· РѕСЃС‚Р°С‚РєР°.*/
         if (args.Length == 1)
         {
             if (int.TryParse(args[0], out int number))
@@ -20,14 +20,14 @@ public class Seminar2
                 }
                 Console.WriteLine(stringBuilder);
             }
-            else Console.WriteLine("Нужно число");
+            else Console.WriteLine("РќСѓР¶РЅРѕ С‡РёСЃР»Рѕ");
         }
-        else Console.WriteLine("Нужно число");
+        else Console.WriteLine("РќСѓР¶РЅРѕ С‡РёСЃР»Рѕ");
     }
 
     public void SummNumberDel(string[] args) 
     {
-        /* Найти сумму чисел, деляшиеся на 3 без остатка в диапазоне от 0 до 1000. */
+        /* РќР°Р№С‚Рё СЃСѓРјРјСѓ С‡РёСЃРµР», РґРµР»СЏС€РёРµСЃСЏ РЅР° 3 Р±РµР· РѕСЃС‚Р°С‚РєР° РІ РґРёР°РїР°Р·РѕРЅРµ РѕС‚ 0 РґРѕ 1000. */
         if (args.Length == 1)
         {
             if (int.TryParse(args[0], out int number))
@@ -42,14 +42,14 @@ public class Seminar2
                 }
                 Console.WriteLine(summa);
             }
-            else Console.WriteLine("Нужно число");
+            else Console.WriteLine("РќСѓР¶РЅРѕ С‡РёСЃР»Рѕ");
         }
-        else Console.WriteLine("Нужно число");
+        else Console.WriteLine("РќСѓР¶РЅРѕ С‡РёСЃР»Рѕ");
     }
 
     public void CountNumDel(string[] args) 
     {
-        /* Найти количество чисел, деляшиеся на 3 без остатка в диапазоне от 0 до 1000. */
+        /* РќР°Р№С‚Рё РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР», РґРµР»СЏС€РёРµСЃСЏ РЅР° 3 Р±РµР· РѕСЃС‚Р°С‚РєР° РІ РґРёР°РїР°Р·РѕРЅРµ РѕС‚ 0 РґРѕ 1000. */
         if (args.Length == 1)
         {
             if (int.TryParse(args[0], out int number))
@@ -69,14 +69,14 @@ public class Seminar2
                 }
                 Console.WriteLine(count);
             }
-            else Console.WriteLine("Нужно число");
+            else Console.WriteLine("РќСѓР¶РЅРѕ С‡РёСЃР»Рѕ");
         }
-        else Console.WriteLine("Нужно число");
+        else Console.WriteLine("РќСѓР¶РЅРѕ С‡РёСЃР»Рѕ");
     }
 
     public void CountOne(string[] args) 
     {
-        // Программа, считающая кло-во едениц в двоичном коде
+        // РџСЂРѕРіСЂР°РјРјР°, СЃС‡РёС‚Р°СЋС‰Р°СЏ РєР»Рѕ-РІРѕ РµРґРµРЅРёС† РІ РґРІРѕРёС‡РЅРѕРј РєРѕРґРµ
         if (args.Length == 1)
         {
             if (int.TryParse(args[0], out int number))
@@ -93,12 +93,12 @@ public class Seminar2
                 }
                 Console.WriteLine(count);
             }
-            else Console.WriteLine("Нужно число");
+            else Console.WriteLine("РќСѓР¶РЅРѕ С‡РёСЃР»Рѕ");
         }
-        else Console.WriteLine("Нужно число");
+        else Console.WriteLine("РќСѓР¶РЅРѕ С‡РёСЃР»Рѕ");
     }
 
-    private int[] CreateArray(int length)  // создает массив длиной length, с рандомными значениями
+    private int[] CreateArray(int length)  // СЃРѕР·РґР°РµС‚ РјР°СЃСЃРёРІ РґР»РёРЅРѕР№ length, СЃ СЂР°РЅРґРѕРјРЅС‹РјРё Р·РЅР°С‡РµРЅРёСЏРјРё
     {
         int[] arrA = new int[length];
         for (int i = 0; i < arrA.Length; i++)
@@ -108,14 +108,14 @@ public class Seminar2
         return arrA;
     }
 
-    private void ViewArray(int[] arr)  // вывод массива в консоль
+    private void ViewArray(int[] arr)  // РІС‹РІРѕРґ РјР°СЃСЃРёРІР° РІ РєРѕРЅСЃРѕР»СЊ
     {
         Console.Write(string.Join(" ", arr));  
     }
 
     public void SortArrays(string[] args) 
     {
-        // Даны два массива А и В, заполненные случайными числами, заполнить рандомно. Создать общий отсортированный массив.
+        // Р”Р°РЅС‹ РґРІР° РјР°СЃСЃРёРІР° Рђ Рё Р’, Р·Р°РїРѕР»РЅРµРЅРЅС‹Рµ СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё, Р·Р°РїРѕР»РЅРёС‚СЊ СЂР°РЅРґРѕРјРЅРѕ. РЎРѕР·РґР°С‚СЊ РѕР±С‰РёР№ РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅРЅС‹Р№ РјР°СЃСЃРёРІ.
         if (args.Length == 2)
         {
             if (int.TryParse(args[0], out int length1) && int.TryParse(args[1], out int length2))
@@ -137,28 +137,28 @@ public class Seminar2
                 Array.Sort(resArr);
                 ViewArray(resArr);
             }
-            else Console.WriteLine("Нужны числа");
+            else Console.WriteLine("РќСѓР¶РЅС‹ С‡РёСЃР»Р°");
         }
-        else Console.WriteLine("Нужно два числа");
+        else Console.WriteLine("РќСѓР¶РЅРѕ РґРІР° С‡РёСЃР»Р°");
     }
 
-    private bool CheckStringToNum(string str) // проверяет, есть ли с строке число
+    private bool CheckStringToNum(string str) // РїСЂРѕРІРµСЂСЏРµС‚, РµСЃС‚СЊ Р»Рё СЃ СЃС‚СЂРѕРєРµ С‡РёСЃР»Рѕ
     {
         foreach (var item in str)
         {
             if (char.IsDigit(item))
             {
-                return true;  //если хоть один символ число, то true
+                return true;  //РµСЃР»Рё С…РѕС‚СЊ РѕРґРёРЅ СЃРёРјРІРѕР» С‡РёСЃР»Рѕ, С‚Рѕ true
             }
         }
-        return false; //если цифр нет
+        return false; //РµСЃР»Рё С†РёС„СЂ РЅРµС‚
     }
 
     public void SearchNumbersInString() 
     {
-        /* Найти подстроку с числами в строке */
+        /* РќР°Р№С‚Рё РїРѕРґСЃС‚СЂРѕРєСѓ СЃ С‡РёСЃР»Р°РјРё РІ СЃС‚СЂРѕРєРµ */
 
-        Console.WriteLine("Задайте стоку, содержащую числа");
+        Console.WriteLine("Р—Р°РґР°Р№С‚Рµ СЃС‚РѕРєСѓ, СЃРѕРґРµСЂР¶Р°С‰СѓСЋ С‡РёСЃР»Р°");
         string str = Console.ReadLine()!;
 
         StringBuilder sb = new StringBuilder();
@@ -190,7 +190,7 @@ public class Seminar2
     }
 
 
-    public void ArrayRefact()  // рефакт массива
+    public void ArrayRefact()  // СЂРµС„Р°РєС‚ РјР°СЃСЃРёРІР°
     {
         int[,] arr = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
         int[,] newArr = new int[arr.GetLength(1), arr.GetLength(0)];
@@ -224,7 +224,7 @@ public class Seminar2
         ViewDualIntArray(newArr);
     }
 
-    public void ArrayRotation() // переворот массива
+    public void ArrayRotation() // РїРµСЂРµРІРѕСЂРѕС‚ РјР°СЃСЃРёРІР°
     {
         int[,] arr = { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 }};
         for (int i = 0; i < arr.GetLength(1); i++)
@@ -239,9 +239,9 @@ public class Seminar2
 
     public void InStringDelNamber()
     {
-        // удалить числа из строки
+        // СѓРґР°Р»РёС‚СЊ С‡РёСЃР»Р° РёР· СЃС‚СЂРѕРєРё
 
-        Console.WriteLine("Задайте стоку, содержащую числа");
+        Console.WriteLine("Р—Р°РґР°Р№С‚Рµ СЃС‚РѕРєСѓ, СЃРѕРґРµСЂР¶Р°С‰СѓСЋ С‡РёСЃР»Р°");
         string str = Console.ReadLine()!;
 
         StringBuilder sb = new StringBuilder();
